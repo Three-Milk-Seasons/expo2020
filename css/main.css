@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	font: 'Roboto', sans-serif;
+}
+header{
+	height: 100vh;
+}
+/*FOOTER: FF1D69*/
+.logo{
+	height: 65px;
+	padding: 2px;
+}
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+	background: #FFC9FB;
+}
+.big-text{
+	font-size: 50px;
+	margin: 20px 0;
+	color: #FF9B71;
+}
+a.btn{
+	margin: 30px 10px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+}
+a.btn-first{
+	background: #FF81D9;
+	color: #fff;
+}
+a.btn:hover{
+	background: #FF81D9;
+	border: none;
+	color: #fff;
+	box-shadow: 5px 5px 10px #999;
+	transition: 0.3s;
+}
+.banner-info{
+	margin-top: 30px 0;
+}
+.banner-image{
+	margin: 50px 0;
+}
+.info{
+	margin-top: 30px 0;
+}
+.image{
+	margin: -50px 0;
+}
+.icon-bar{
+	background: #18998B;
+}
+.paragraph{
+	font-size: 17.5px;
+	text-align: justify;
+}
+.paragraph2{
+	font-size: 17.5px;
+	padding: 2px;
+}
+.paragraph3{
+	font-size: 18.5px;
+}
+.lista{
+	list-style-type: none;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex2{
+	display: flex;
+	justify-content: center;
+}
+.flex-def{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-def2{
+	display: inline-block;
+	text-align: center;
+	padding-left: 2.2rem;
+	padding-right: 2.2rem;
+}
+.center-fd{
+	display: flex;
+	justify-content: center;
+}
+.clear{
+	clear: both;
+	padding: 2.2rem;
+}
+
+.nav-hover:hover{
+	background: #FF1D69;
+}
+.ct{
+	text-align: center;
+	padding: 2rem;
+}
+.mar{
+	margin-top: 45px;
+}
+.footer{
+	background: #FF1D69;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	-webkit-box-shadow: 0px -7px 21px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -7px 21px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -7px 21px 0px rgba(0,0,0,0.75);
+}
+.container2 img{
+	width: 150px;
+	height: auto;
+}
+.align{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-media{
+	text-decoration: none;
+	color: #333;
+}
+.col-sm-4{
+	width: 500px;
+	margin: 2% 10% 4% 7%;
+}
+
+.full{
+	height: 50px;
+	padding: 5px;
+	border: 1px solid #FB9BF7;
+	background:#FF81D9;
+}
+.empty{
+	height: 20px;
+	width: 200px;
+	margin-top: 10% 5% 5% 5%;
+}
+
+}
+@media screen and (max-width: 768px){
+	.flex{
+		display: block;
+	}
+	.flex-def2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	.center-fd{
+		display: block;
+	}
+	.paragraph{
+		font-size: 17px;
+		padding: 2rem;
+	}
+}
+/*pagina ordene ahora*/
+#space{
+	padding: 3rem;
+	margin: 30px;
+}
+.size-form{
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -161,6 +161,11 @@ a.btn:hover{
 		font-size: 17px;
 		padding: 2rem;
 	}
+
+	.vid-center{
+		width: 640px;
+		height: 360px;
+	}
 }
 /*pagina ordene ahora*/
 #space{
@@ -172,4 +177,5 @@ a.btn:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
 }
